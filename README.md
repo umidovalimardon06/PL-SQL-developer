@@ -19,7 +19,7 @@ This repository is a **step-by-step roadmap** to becoming a **job-ready PL/SQL D
 - `NULL` handling (`IS NULL`, `NVL`)  
 - `CASE` expressions  
 - `ORDER BY` (ASC/DESC, position-based)  
-- `DISTINCT`  
+- `DISTINCT`   
 - Row limiting (`FETCH FIRST n ROWS ONLY`)  
 
 ---
@@ -34,7 +34,15 @@ This repository is a **step-by-step roadmap** to becoming a **job-ready PL/SQL D
 
 ## 4. CTEs (WITH Clause)
 
----
+### Topics covered
+- What a **CTE (Common Table Expression)** is  
+- Purpose and benefits of using CTEs  
+- **CTE structure** (`WITH cte_name AS (...)`)  
+- **CTE vs subquery** (readability, reusability, optimization)  
+- **Non-recursive CTEs**
+  - Stand-alone CTEs  
+  - Nested (multiple) CTEs  
+
 
 ## 5. Data Grouping & Analytics
 
