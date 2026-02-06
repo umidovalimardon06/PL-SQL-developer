@@ -42,6 +42,7 @@ This repository is a **step-by-step roadmap** to becoming a **job-ready PL/SQL D
 - **Non-recursive CTEs**
   - Stand-alone CTEs  
   - Nested (multiple) CTEs  
+- **Recursive CTEs**
 
 
 ## 5. Data Grouping & Analytics
