@@ -19,14 +19,22 @@ This repository is a **step-by-step roadmap** to becoming a **job-ready PL/SQL D
 - `NULL` handling (`IS NULL`, `NVL`)  
 - `CASE` expressions  
 - `ORDER BY` (ASC/DESC, position-based)  
-- `DISTINCT`  
+- `DISTINCT`   
 - Row limiting (`FETCH FIRST n ROWS ONLY`)  
 
 ---
 
 ## 2. Joins
 
----
+---### Topics covered
+- `NO-JOIN`
+- `INNER-JOIN`
+- `LEFT-JOIN`
+- `RIGHT-JOIN`
+- `FULL-JOIN`
+- `LEFT-ANTI-JOIN`
+- `RIGHT-ANTI-JOIN`
+- `FULL-ANTI-JOIN`
 
 ## 3. Subqueries
 
@@ -42,6 +50,7 @@ This repository is a **step-by-step roadmap** to becoming a **job-ready PL/SQL D
 - **Non-recursive CTEs**
   - Stand-alone CTEs  
   - Nested (multiple) CTEs  
+- **Recursive CTEs**
 
 
 ## 5. Data Grouping & Analytics
