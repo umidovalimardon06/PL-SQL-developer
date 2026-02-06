@@ -26,7 +26,15 @@ This repository is a **step-by-step roadmap** to becoming a **job-ready PL/SQL D
 
 ## 2. Joins
 
----
+---### Topics covered
+- `NO-JOIN`
+- `INNER-JOIN`
+- `LEFT-JOIN`
+- `RIGHT-JOIN`
+- `FULL-JOIN`
+- `LEFT-ANTI-JOIN`
+- `RIGHT-ANTI-JOIN`
+- `FULL-ANTI-JOIN`
 
 ## 3. Subqueries
 
