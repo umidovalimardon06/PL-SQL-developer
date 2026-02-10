@@ -53,9 +53,13 @@ This repository is a **step-by-step roadmap** to becoming a **job-ready PL/SQL D
 - **Recursive CTEs**
 
 
-## 5. Data Grouping & Analytics
+## 5. Data Grouping
 
----
+### Topics covered
+- **Data-gruping** and how it works under the hood  
+- **Aggregate-functions**  avg(),min(),max(),count(),sum(),
+- **Having** clause
+
 
 ## 6. Normalization
 
