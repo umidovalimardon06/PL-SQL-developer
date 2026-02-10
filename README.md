@@ -26,6 +26,9 @@ This repository is a **step-by-step roadmap** to becoming a **job-ready PL/SQL D
 
 ## 2. Joins
 
+**Branch:**  
+[02-joins](https://github.com/umidovalimardon06/PL-SQL-developer/tree/02-joins)
+
 ---### Topics covered
 - `NO-JOIN`
 - `INNER-JOIN`
@@ -42,6 +45,9 @@ This repository is a **step-by-step roadmap** to becoming a **job-ready PL/SQL D
 
 ## 4. CTEs (WITH Clause)
 
+**Branch:**  
+[04-CTE's](https://github.com/umidovalimardon06/PL-SQL-developer/tree/04-CTEs)
+
 ### Topics covered
 - What a **CTE (Common Table Expression)** is  
 - Purpose and benefits of using CTEs  
@@ -53,9 +59,17 @@ This repository is a **step-by-step roadmap** to becoming a **job-ready PL/SQL D
 - **Recursive CTEs**
 
 
-## 5. Data Grouping & Analytics
+## 5. Data Grouping
 
----
+**Branch:**  
+[05-data-grouping](https://github.com/umidovalimardon06/PL-SQL-developer/tree/05-data-grouping)
+
+
+### Topics covered
+- **Data-gruping** and how it works under the hood  
+- **Aggregate-functions**  avg(),min(),max(),count(),sum(),
+- **Having** clause
+
 
 ## 6. Normalization
 
