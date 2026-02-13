@@ -73,7 +73,14 @@ This repository is a **step-by-step roadmap** to becoming a **job-ready PL/SQL D
 
 ## 6. Normalization
 
----
+### Topics covered
+- **Defination:purpose**
+- **Data-redundancy** problem
+- Levels of normalization:
+- Main three ones:
+- **1NF**
+- **2NF** 
+- **3NF** 
 
 ## 7. Constraints
 
