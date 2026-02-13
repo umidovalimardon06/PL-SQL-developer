@@ -1,132 +1,50 @@
-# PL/SQL Developer Job Checklist (Job-Oriented)
+# NORMALIZATION
 
-This repository is a **step-by-step roadmap** to becoming a **job-ready PL/SQL Developer**, focused on **real enterprise skills** rather than theory.
+Design process to avoid data-redundancy.
 
----
+Redundancy: duplication of rows.
 
-## 1. Data Querying (SQL Fundamentals) ✅
+Example:
 
-**Branch:**  
-[01-data-querying](https://github.com/umidovalimardon06/PL-SQL-developer/tree/01-data-querying)
+```
+31  John    Germany
+32  Alison  USA
+31  John    Germany   -> 2 rows duplicated
+```
 
-### Topics covered
-- `SELECT *` and column-based queries  
-- Column aliasing  
-- `WHERE` filtering  
-- Comparison and logical operators  
-- `BETWEEN`, `IN`  
-- `LIKE` and wildcard patterns (`%`, `_`)  
-- `NULL` handling (`IS NULL`, `NVL`)  
-- `CASE` expressions  
-- `ORDER BY` (ASC/DESC, position-based)  
-- `DISTINCT`   
-- Row limiting (`FETCH FIRST n ROWS ONLY`)  
+## Levels of Normalization
+
+1. 1NF (First Normal Form)
+2. 2NF (Second Normal Form)
+3. 3NF (Third Normal Form)
+4. 4NF (Fourth Normal Form)
+5. BCNF (Boyce-Codd Normal Form)
 
 ---
 
-## 2. Joins
+## Main Three Ones
 
-**Branch:**  
-[02-joins](https://github.com/umidovalimardon06/PL-SQL-developer/tree/02-joins)
+### 1NF
 
----### Topics covered
-- `NO-JOIN`
-- `INNER-JOIN`
-- `LEFT-JOIN`
-- `RIGHT-JOIN`
-- `FULL-JOIN`
-- `LEFT-ANTI-JOIN`
-- `RIGHT-ANTI-JOIN`
-- `FULL-ANTI-JOIN`
+1. Every column/attribute must have a single value.
+2. Every row/tuple should be unique.
 
-## 3. Subqueries
+### 2NF
 
----
+1. Must be in 1NF.
+2. All non-key attributes must be fully dependent on the candidate key.
 
-## 4. CTEs (WITH Clause)
+   * If a non-key column is partially dependent on the candidate key, then we must split them.
+3. Every table should have a primary key, and relationships between them
+   should be formed using a foreign key.
 
-**Branch:**  
-[04-CTE's](https://github.com/umidovalimardon06/PL-SQL-developer/tree/04-CTEs)
+### 3NF
 
-### Topics covered
-- What a **CTE (Common Table Expression)** is  
-- Purpose and benefits of using CTEs  
-- **CTE structure** (`WITH cte_name AS (...)`)  
-- **CTE vs subquery** (readability, reusability, optimization)  
-- **Non-recursive CTEs**
-  - Stand-alone CTEs  
-  - Nested (multiple) CTEs  
-- **Recursive CTEs**
+1. Must be in 2NF.
+2. No transitive dependencies.
 
+Example:
 
-## 5. Data Grouping
-
-**Branch:**  
-[05-data-grouping](https://github.com/umidovalimardon06/PL-SQL-developer/tree/05-data-grouping)
-
-
-### Topics covered
-- **Data-gruping** and how it works under the hood  
-- **Aggregate-functions**  avg(),min(),max(),count(),sum(),
-- **Having** clause
-
-
-## 6. Normalization
-
----
-
-## 7. Constraints
-
----
-
-## 8. Indexes
-
----
-
-## 9. PL/SQL Blocks
-
----
-
-## 10. Functions & Procedures
-
----
-
-## 11. Packages
-
----
-
-## 12. Exception Handling
-
----
-
-## 13. Collections
-
----
-
-## 14. Bulk Operations
-
----
-
-## 15. Dynamic SQL
-
----
-
-## 16. Transactions
-
----
-
-## 17. Views
-
----
-
-## 18. Logging & Auditing
-
----
-
-## 19. Roles & Privileges
-
----
-
-## 20. Integration & Automation
-
----
+```
+StudentId, StudentName, DeptName
+```
