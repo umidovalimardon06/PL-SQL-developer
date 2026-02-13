@@ -41,7 +41,26 @@ This repository is a **step-by-step roadmap** to becoming a **job-ready PL/SQL D
 
 ## 3. Subqueries
 
----
+**Branch:**  
+[03-subqueries](https://github.com/umidovalimardon06/PL-SQL-developer/tree/03-subqueries-ctes)
+
+---### Topics covered
+- `NO-JOIN`
+- **Sub-query(nested-query)** defination
+- **FORM** of exection
+- **Types**:
+-  1.**by dependency**:
+      -non-correlated
+      -correleted
+-   2.**by-return type**:
+      -scaler
+      -row
+      -table
+-   3.**by location:clauses**:
+      -SELECT
+      -FROM
+      -JOIN
+      -WHERE(comparison,logical)  
 
 ## 4. CTEs (WITH Clause)
 
@@ -72,6 +91,9 @@ This repository is a **step-by-step roadmap** to becoming a **job-ready PL/SQL D
 
 
 ## 6. Normalization
+
+**Branch:**  
+[06-noramlizaion](https://github.com/umidovalimardon06/PL-SQL-developer/tree/06-normalization)
 
 ### Topics covered
 - **Defination:purpose**
@@ -137,3 +159,9 @@ This repository is a **step-by-step roadmap** to becoming a **job-ready PL/SQL D
 ## 20. Integration & Automation
 
 ---
+
+
+
+
+
+
