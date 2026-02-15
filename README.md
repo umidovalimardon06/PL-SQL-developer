@@ -106,7 +106,19 @@ This repository is a **step-by-step roadmap** to becoming a **job-ready PL/SQL D
 
 ## 7. Constraints
 
----
+**Branch:**  
+[07-constraints](https://github.com/umidovalimardon06/PL-SQL-developer/tree/07-constraints)
+
+### Topics covered
+- **Constraints**:
+- NOT NULL
+- UNIQUE
+- CHECK
+- DEFAULT
+- PRIMARY-KEY
+- **Custom-types**:
+- DOMAIN
+- ENUM
 
 ## 8. Indexes
 
